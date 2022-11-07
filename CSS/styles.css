@@ -94,7 +94,6 @@ img {
 }
 
 .address-item {
-  display: flex;
 }
 
 .hdr-link {
@@ -140,6 +139,7 @@ img {
 }
 
 .hdr-nav-mail {
+  display: flex;
   align-items: center;
 }
 
