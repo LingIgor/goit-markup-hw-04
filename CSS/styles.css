@@ -353,7 +353,10 @@ img {
 
 .team-soc-list {
   display: flex;
-  padding: 0 32px 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  padding-bottom: 30px;
   gap: 10px;
 }
 
@@ -507,10 +510,6 @@ img {
   color: var(--back-color);
 }
 
-.team-soc-list {
-  padding: 0;
-  margin: 0;
-}
 .soc-item {
 }
 
