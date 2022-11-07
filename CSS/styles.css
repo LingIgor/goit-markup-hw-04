@@ -398,6 +398,7 @@ img {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
 
   color: var(--h-color);
 }
@@ -433,9 +434,12 @@ img {
 
 /* -----------------FOOTER------------------ */
 .ftr {
+  background-color: var(--hero-back-color);
+}
+
+.ftr-address-box {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--hero-back-color);
 }
 
 .ftr-container {
@@ -443,6 +447,7 @@ img {
 }
 
 .ftr-address-box {
+  min-width: 231px;
 }
 
 .ftr-logo {
@@ -499,6 +504,10 @@ img {
 }
 
 .ftr-soc-list {
+  padding: 0;
+  margin: 0;
+  padding-top: 72px;
+  padding-bottom: 100px;
   margin-left: 70px;
 }
 
