@@ -382,6 +382,52 @@ img {
   background-color: var(--button-color);
 }
 
+/* -----------------section CLIENTS---------------- */
+
+.clients {
+}
+.container {
+}
+.clients-container {
+}
+.clients-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--h-color);
+}
+.clients-list {
+  display: flex;
+  gap: 30px;
+  /* align-items: center;
+  justify-content: center; */
+  margin: 0 auto;
+}
+.clients-item {
+}
+.clients-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-color: var(--back-color);
+}
+
+.icon-clients {
+  fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
+}
+
 /* -----------------FOOTER------------------ */
 .ftr {
   padding-top: 60px;
