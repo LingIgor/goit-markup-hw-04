@@ -538,7 +538,7 @@ img {
   background-color: var(--button-color);
 }
 
-.soc-link .visually-hidden {
+.visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -562,10 +562,6 @@ img {
   margin-bottom: 50px;
   list-style: none;
 }
-
-/* .btn .item + .item {
-  margin-left: 8px;
-} */
 
 .btn-item {
   padding: 0;
@@ -626,6 +622,12 @@ img {
 
 .work-link {
   text-decoration: none;
+}
+
+.work-box:hover,
+.work-box:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .work-text {
